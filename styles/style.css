@@ -1,0 +1,15 @@
+* {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.sec1-image img {
+    width: auto;
+    height: 200px;
+}
+
+.sec2-squares img {
+    width: 120px;
+    height: 120px;
+
+}
