@@ -21,6 +21,22 @@
     padding: 0 px;
 }
 
+.box4button button {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3882f6;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
 
 ul {
     list-style-type: none;
@@ -33,7 +49,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 body {
@@ -41,13 +57,14 @@ body {
     flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
     flex: 10%;
     display: flex;
     justify-content: space-between;
-    background-color: #D64045;
+    background-color: #1f2937;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -67,6 +84,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 .content {
@@ -81,7 +99,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1D3354;
+    background-color: #1f2937;
 }
 
 .footer-text {
@@ -104,7 +122,7 @@ img{
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    background-color: #D64045;
+    background-color: #1f2937;
     padding-bottom: 30px;
 }
 
@@ -121,6 +139,7 @@ img{
 .box1content p {
     word-break: break-word;
     font-size: 18px;
+    margin-bottom: 30px;
 }
 
 .box1content h2 {
@@ -136,7 +155,7 @@ img{
 
     display: flex;
     flex-direction: column;
-    background-color: #E9FFF9;
+    background-color: white;
     
 }
 
@@ -163,6 +182,11 @@ img{
     max-width: 200px;
 }
 
+.box2 h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .box2 p {
     word-break: break-word;
     text-align: center;
@@ -171,8 +195,11 @@ img{
 .box2 img {
     max-height: 200px;
     max-width: 200px;
-    border-radius: 8px; 
+    border-radius: 10px; 
     flex: 1;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882f6;
 }
 
 .box2box1 {
@@ -209,7 +236,7 @@ img{
     padding: 10px;
     justify-content: center;
     align-items: center;
-    background-color: #9ED8DB;
+    background-color: #e5e7eb;
     
 }
 
@@ -218,18 +245,25 @@ img{
     flex-direction: column;
     max-width: 600px;
     flex: 1;
+    gap: 10px;
 }
 
 .box3quote {
     flex: 1;
     word-break: break-word;
     text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 
 }
 
 .box3credit {
     flex: 1;
     text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 
@@ -239,17 +273,21 @@ img{
     
     display: flex;
     padding: 10px;
-    background-color: #467599;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .box4boxes {
 
     display: flex;
-    flex:1 ;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: #3882f6;
+    border-radius: 20px;
+    margin: 80px;
+    padding: 20px;
 
 }
 
@@ -269,7 +307,22 @@ img{
     justify-content: center;
 }
 
+.box4button button {
+    color: white;
+}
+
 .box4content,
 .box4button {
     min-width: 200px;
 }
+
+/*---------------text coloring----------------------*/
+
+.header,
+.box1content,
+.box4ad,
+.footer {
+    color: white;
+}
+
+
